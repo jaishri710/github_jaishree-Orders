@@ -1,0 +1,48 @@
+{
+"recordType": "purchaseOrder",
+"entity": {
+"type": "vendor",
+"ref": "737"
+},
+"tranDate": "2024-09-01",
+"memo": "Test Purchase Order",
+“admin_email”: tom@neosalpha.com
+"item": [
+{
+"item": {
+"type": "inventoryItem",
+"ref": "36"
+},
+"quantity": 2,
+"rate": 300,
+"amount": 600
+},
+{
+"item": {
+"type": "inventoryItem",
+"ref": "2210"
+},
+"quantity": 1,
+"rate": 54999,
+"amount": 54999
+}
+],
+"shippingAddress": {
+"addr1": "123 Main Street",
+"city": "Sample City",
+"state": "CA",
+"zip": "90001",
+"country": "US"
+},
+"billingAddress": {
+"addr1": "123 Main Street",
+"city": "Sample City",
+"state": "CA",
+"zip": "90001",
+"country": "US"
+},
+"terms": {
+"type": "terms",
+"ref": "Net 30"
+}
+}
