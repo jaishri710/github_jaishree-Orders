@@ -1,48 +1,48 @@
 {
-"recordType": "salesOrder",
-"entity": {
-"type": "customer",
-"ref": "36"
-},
-"tranDate": "2024-09-10",
-"memo": "Test Sales Order",
-"admin_email": "jai@neosalpha.com",
-"item": [
-{
-"item": {
-"type": "inventoryItem",
-"ref": "36"
-},
-"quantity": 2,
-"rate": 600,
-"amount": 1200
-},
-{
-"item": {
-"type": "inventoryItem",
-"ref": "2210"
-},
-"quantity": 1,
-"rate": 59069,
-"amount": 59069
-}
-],
-"shippingAddress": {
-"addr1": "123 Main Street",
-"city": "Sample City",
-"state": "CA",
-"zip": "90001",
-"country": "US"
-},
-"billingAddress": {
-"addr1": "123 Main Street",
-"city": "Sample City",
-"state": "CA",
-"zip": "90001",
-"country": "US"
-},
-"terms": {
-"type": "terms",
-"ref": "Net 30"
-}
+  "recordType": "salesOrder",
+  "entity": {
+    "type": "customer",
+    "ref": "36"
+  },
+  "tranDate": "2024-09-12",
+  "memo": "Test Sales Order",
+  "admin_email": "jaishree@neosalpha.com",
+  "item": [
+    {
+      "item": {
+        "type": "inventoryItem",
+        "ref": "36"
+      },
+      "quantity": 2,
+      "rate": 600,
+      "amount": 1200
+    },
+    {
+      "item": {
+        "type": "inventoryItem",
+        "ref": "2210"
+      },
+      "quantity": 1,
+      "rate": 59069,
+      "amount": 59069
+    }
+  ],
+  "shippingAddress": {
+    "addr1": "123 Main Street",
+    "city": "Sample City",
+    "state": "CA",
+    "zip": "90001",
+    "country": "US"
+  },
+  "billingAddress": {
+    "addr1": "123 Main Street",
+    "city": "Sample City",
+    "state": "CA",
+    "zip": "90001",
+    "country": "US"
+  },
+  "terms": {
+    "type": "terms",
+    "ref": "Net 30"
+  }
 }
