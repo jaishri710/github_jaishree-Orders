@@ -11,7 +11,7 @@
     {
       "item": {
         "type": "inventoryItem",
-        "ref": "6"
+        "ref": "50"
       },
       "quantity": 2,
       "rate": 600,
