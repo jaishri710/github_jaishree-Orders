@@ -6,12 +6,12 @@
 },
 "tranDate": "2024-09-12",
 "memo": "Test Purchase Order",
-"admin_email": "jaishree7889@gmail.com",
+"admin_email": "abhishek.pareek.2611@gmail.com",
 "item": [
 {
 "item": {
 "type": "inventoryItem",
-"ref": "39"
+"ref": "2210"
 },
 "quantity": 2,
 "rate": 300,
