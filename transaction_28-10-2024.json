@@ -2,7 +2,7 @@
   "recordType": "salesOrder",
   "entity": {
     "type": "customer",
-    "ref": "50"
+    "ref": "36"
   },
   "tranDate": "2024-09-12",
   "memo": "Test Sales Order",
@@ -11,7 +11,7 @@
     {
       "item": {
         "type": "inventoryItem",
-        "ref": "50"
+        "ref": "36"
       },
       "quantity": 2,
       "rate": 600,
